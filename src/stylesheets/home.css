@@ -1,0 +1,59 @@
+.colophon-bar {
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  font-family: var(--pixel);
+  padding: 0.5rem 1rem;
+
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  background-color: var(--red);
+   &::-webkit-scrollbar {
+        display: none;
+    }
+  scrollbar-width: none; 
+
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.colophon-bar span::after {
+  content: " //";
+  font-weight: bold;
+  opacity: 0.4;
+  margin-left: 1.5rem;
+}
+
+.colophon-bar span:last-child::after {
+  content: "";
+}
+@keyframes colophon-bar {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+section {
+    margin: 0;
+    padding: 10px;
+}
+
+.introduction {
+padding-top: 50px;
+}
+
+.cut-marks {
+border-color: var(--text);
+}
+@media (max-width: 1000px) {
+    .cut-marks {
+        display: none;
+}
+}

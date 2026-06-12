@@ -1,0 +1,145 @@
+
+.portfolio-menu {
+    list-style-type: none;
+    display: flex;
+    /* padding-top: 50px; */
+    background: linear-gradient(to bottom,
+            var(--header),
+            var(--header-darker));
+            /* background-color: var(--header); */
+    align-items: center;
+    /* vertical center */
+    /* box-shadow: 0px 1px 5px var(--text); */
+   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 10pt;
+
+}
+
+
+.menu-link {
+    color: var(--text);
+    /* margin: 7px; */
+    padding: 7px;
+    text-decoration: none;
+    border: none;
+    /* font-size: 24pt;
+    font-family: 'Nunito';
+    font-weight: 500; */
+    background: none;
+    font-family: var(--heading);
+    font-weight: 100;
+}
+
+.menu-link:hover {
+    color: var(--header);
+    /* background: linear-gradient(to bottom,
+            var(--accent-lighter),
+            var(--accent)); */
+    /* background-color: var(--highlight); */
+    background: var(--text);
+    transition: 0.2s;
+    /* background-color: var(--accent); */
+}
+
+.footer-area {
+     background: linear-gradient(to bottom,
+             var(--header),
+            var(--header-darker));
+               position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 10pt;
+  font-family: var(--pixel);
+}
+
+
+.desktop-nav {
+  display: flex;
+  gap: 12px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.eva-menu {
+  display: none;
+
+  background: transparent;
+  color: var(--red);
+  border: 1px solid var(--red);
+backdrop-filter: blur(5px);
+  padding: 6px 12px;
+  font-family: var(--heading);
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  z-index: 2;
+}
+.eva-menu:hover {
+    background-color: var(--red);
+    color: var(--text);
+    transition: 0.2s;
+    
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+
+  background: var(--bg);
+  border-bottom: 1px solid var(--red);
+   position: fixed;
+  left: 0;
+  top: 30px;
+  right: 0;
+  z-index: 1;
+}
+
+.mobile-nav button {
+  background: transparent;
+  color: var(--text);
+  border: none;
+
+  text-align: right;
+  padding: 16px 20px;
+  font-family: var(--pixel);
+  letter-spacing: 0.12em;
+ 
+}
+
+.mobile-nav button:hover {
+  background: var(--text);
+  color: var(--bg)
+}
+
+@media (max-width: 600px) {
+  .desktop-nav {
+    display: none;
+  }
+  .portfolio-menu {
+    box-shadow: none;
+    background: none;
+  }
+
+  .eva-menu {
+    display: block;
+  }
+
+  .datetime {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+    .eva-menu {
+        display: none;
+    } .mobile-nav {
+        display: none;
+    }
+}

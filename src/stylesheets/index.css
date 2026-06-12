@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Silkscreen:wght@400;700&display=swap');
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* LIGHT THEME */
+/* --text: rgb(11, 59, 37);
+  --text-h: #0a271c;
+  --bg: #f9f9f9;
+  --card-bg: #f5f7f4;
+  --accent: #8ab764;
+  --red: #d26249;
+  --green: #8ab764;
+  --accent-lighter: rgb(163, 206, 153);
+  --accent-bg: rgba(148, 199, 109, 0.1);
+  --accent-border: rgba(225, 240, 221, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --header: #dbe8c9;
+  --header-darker: #d1e6be;
+  --highlight: #c6e19c;
+  --highlight-text: #1d5a55; */
+
+/* BLUE THEME */
+/* --text: rgb(11, 33, 59);
+  --text-h: #0a1727;
+  --bg: #eef2f8;
+  --card-bg: #f4f7f7;
+  --accent: #5da8d6;
+    --red: #d26249;
+
+  --accent-lighter: rgb(228, 241, 249);
+  --accent-bg: rgba(109, 152, 199, 0.1);
+  --accent-border: rgba(221, 230, 240, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --header: #c9dbe8;
+  --header-darker: #bed5e6;
+   --highlight:  #9cc5e1;
+  --highlight-text:  #1d385a; */
+
+:root {
+  --text: rgb(17, 43, 74);
+  --text-h: #0a1727;
+  --bg: #ffffff;
+  --card-bg: #f4f8ff;
+  --accent: #5da8d6;
+  --red: #d26249;
+  --green: #aecb7f;
+  --blue: #5d9fc9;
+  --accent-lighter: #9cc5e1;
+  --accent-bg: rgba(109, 152, 199, 0.1);
+  --accent-border: rgba(221, 230, 240, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --header: #f4f8ff;
+  --header-darker: #f3faff;
+  --highlight: #cbdcb6;
+  color-scheme: light;
+
+
+  --sans: 'Helvetica', sans-serif;
+  --pixel: 'Pixelify Sans';
+  --heading: 'Silkscreen', sans-serif;
+  --mono: 'Cousine', monospace;
+
+  font: 17px/145% var(--sans);
+  /* font-weight: 300; */
+  letter-spacing: -0.5px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+
+  min-height: 100vh;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme="dark"] {
+  
+    /* DARK THEME */
+    --text: #cde1f3;
+    --text-h: #76a9d3;
+    --bg: #132134;
+    --card-bg: #2f5074;
+    --red: #d2496b;
+    --green:rgb(31, 188, 157)b;
+    --blue:rgb(62, 141, 206)b;
+    --accent: #67abd5;
+    --accent-lighter: rgb(165, 205, 240);
+    --accent-bg: rgba(109, 158, 199, 0.1);
+    --accent-border: rgba(221, 233, 240, 0.5);
+    --shadow:
+      rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(43, 38, 38, 0.05) 0 4px 6px -2px;
+    --header: #213b5f;
+    --header-darker: #21375f;
+    --highlight: #b2d567;
+    --highlight-text: #1d2e5a;
+    color-scheme: dark;
+
+  #social .button-icon {
+    filter: invert(1) brightness(2);
+  }
+}
+
+#root {
+  /* width: 1126px; */
+  /* max-width: 90%; */
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  transition: background-color 1s ease, color 1s ease;
+}
+
+h1 {
+  font-family: var(--heading);
+  font-weight: 200;
+
+  color: var(--text-h);
+}
+
+h2 {
+  font-family: var(--mono);
+  font-weight: 600;
+  letter-spacing: 0.1px;
+
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}
+
+
+::selection {
+  color: var(--highlight-text);
+  background: var(--highlight);
+}
