@@ -1,6 +1,7 @@
+
 <p class="header-caption"><i>A re-imagination of NASA Worldview, if it were designed by Adobe.</i></p>
 
-## Constructing Environmental Facts:
+Constructing Environmental Facts:
 The aim of this project was to redesign an existing public access data repositories centered around mapping data and topography. I decided to choose NASA World view as the focal point of my exploration. I began by exploring the original NASA Worldview website to understand it's features and how it works. Let's say, very mildly, for a government website, it's Quite the experience.
 
 <button class="live-link-button"><a href="https://worldview.earthdata.nasa.gov/">A Link to NASA WorldView </a></button>

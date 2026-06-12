@@ -1,6 +1,6 @@
 <img src="/assets/pyromanimals/title.png" width="600px" style="margin: 5px auto" />
 
-## Foreword
+<h2>Foreword</h2>
 
 My original project idea was widely different than what I ended up doing, but I think the final project, though an incredibly VAST idea that I’m probably going to keep turning around in my head and refining, plays to my strengths and interests a lot better.
 I have… almost no regrets! My computer’s memory card however holds a lot of misery on my behalf. 

@@ -1,3 +1,4 @@
+
 This project is based on a platform you *may* already be familiar with, Discord! And we are
 creating an automated bot that will be facilitating the experience of learning new skills alongside
 other students. When you enter a channel dedicated to building a skill, the bot will release

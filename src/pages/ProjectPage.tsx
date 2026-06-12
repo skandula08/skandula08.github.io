@@ -5,41 +5,44 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 
-
 type ProjectProps = {
   project: ProjectOverview;
 };
 
-const writeups = import.meta.glob("./projects/writeups/*.md", {
-  as: "raw",
-});
-export default function ProjectPage(project: ProjectProps) {
-  const toDisplay: ProjectOverview = { ...project.project };
+const writeups = import.meta.glob(
+  "./projects/writeups/*.md",
+  { import: "raw" }
+) as Record<string, () => Promise<string>>;
 
-  const [markdown, setMarkdown] = useState<string>("");
+export default function ProjectPage(project: ProjectProps) {
+  const toDisplay = project.project;
+
+  const [markdown, setMarkdown] = useState("");
 
   useEffect(() => {
-    const filePath = `./projects/writeups/${toDisplay.slug}.md`;
+    const filePath = Object.keys(writeups).find((path) =>
+      path.endsWith(`${toDisplay.slug}.md`)
+    );
 
-    const loader = writeups[filePath];
+    if (!filePath) return;
 
-    if (!loader) {
-      return;
-    }
-
-    loader().then((content) => {
-      setMarkdown(content as string);
+    writeups[filePath]().then((content) => {
+      setMarkdown(content);
     });
   }, [toDisplay.slug]);
 
   return (
     <div>
       <ProjectIntro {...toDisplay} />
+
       <div className="writeup text-left text-lg">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}
-        rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          rehypePlugins={[rehypeRaw]}
+        >
+          {markdown}
+        </ReactMarkdown>
       </div>
-      
     </div>
   );
 }

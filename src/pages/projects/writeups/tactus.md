@@ -1,5 +1,4 @@
-
-## Foreword
+<h2>Foreword</h2>
 
 Tactus is a wearable technology startup aimed at giving deaf people and those who are hard of hearing to experience music.
 They basically use vests and jackets embedded with little devices and conductive fibers that conduct vibrations at certain pressure points to evoke the feeling of music. The technoloy that the Tactus team had developed is seriously cool, having tried it myself, they really do feel like music is playing, even if you can't hear any audio yourself.
