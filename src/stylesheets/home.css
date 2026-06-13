@@ -52,7 +52,19 @@ padding-top: 50px;
 .cut-marks {
 border-color: var(--text);
 }
+
+
 @media (max-width: 1000px) {
+    .cut-marks {
+        display: none;
+}
+.about-myself {
+  width: 100%;
+}
+
+}
+
+@media (max-height: 600px) {
     .cut-marks {
         display: none;
 }

@@ -26,7 +26,7 @@ export default function Home() {
           <span className="text-[var(--red)]">(((o(*°▽°*)o)))</span>
         </h2>
 
-        <p className="text-lg w-3/8">
+        <p className="about-myself text-lg w-3/8">
           I'm a designer, developer and artist who likes to solve problems and
           make cool tools that can help a friend out. <br />
           Feel free to peruse my woundrous collection
