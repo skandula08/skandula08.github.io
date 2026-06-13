@@ -12,9 +12,10 @@ export default function About() {
         <div className="text-left text-3xl my-10 font-[Silkscreen]">
           A Little About Me!
         </div>
+        
         <div className="content">
           <p>
-            Hey there, I'm <b className="bg-[var(--green)]">Sree!</b>
+            Hey there, I'm <b className="bg-[var(--highlight)]">Sree!</b> (´• ‿ •`)ノ〃
             <br />
             I'm a recent graduate of Northeastern University, with a BS Computer
             Science and Design.

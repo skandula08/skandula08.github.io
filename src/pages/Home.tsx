@@ -36,11 +36,11 @@ export default function Home() {
         +++++++++++++++++++++++++++++++++++++++
         <br />
         <span>ARCHIVE_08</span>
-        <span>STATUS:AOK</span>
+        <span>We are A-OK</span>
         <span>REACT+TS</span>
         <span>BUILD:2026</span>
-        <span>SIGNAL:███████░░</span>
         <span>PATTERN RED</span>
+        <span>SIGNAL:███████░░</span>
       </div>
       {/* Projects */}
       <section id="projects" className=" max-w-6xl px-6 py-24">
@@ -67,7 +67,7 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="mx-auto max-w-4xl px-6 py-24 flex justify-center text-left ">
+      <section id="contact" className="contact-me mx-auto max-w-4xl px-6 py-24 flex justify-center text-left ">
         <div className="p-8">
           <h1 className="mb-6 text-3xl font-bold">Contact</h1>
           <h3 className="mb-4 font-[Cousine] w-4/5">
@@ -76,6 +76,8 @@ export default function Home() {
         </div>
         <Contact />
       </section>
+
+      <div className="m-10" />
     </main>
   );
 }
