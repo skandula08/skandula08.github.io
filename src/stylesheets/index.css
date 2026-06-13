@@ -12,6 +12,7 @@
   --card-bg: #f5f7f4;
   --accent: #8ab764;
   --red: #d26249;
+  --blue: #5d9fc9;
   --green: #8ab764;
   --accent-lighter: rgb(163, 206, 153);
   --accent-bg: rgba(148, 199, 109, 0.1);
@@ -45,8 +46,8 @@
   --text: rgb(17, 43, 74);
   --text-h: #0a1727;
   --bg: #ffffff;
-  --card-bg: #f4f8ff;
-  --accent: #5da8d6;
+  --card-bg: #f4f7fa;
+  --accent: #5d9fc9;
   --red: #d26249;
   --green: #aecb7f;
   --blue: #5d9fc9;
@@ -55,9 +56,16 @@
   --accent-border: rgba(221, 230, 240, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-  --header: #f4f8ff;
-  --header-darker: #f3faff;
-  --highlight: #cbdcb6;
+  --header: #ecf3f9;
+  --header-darker: #e3eff6;
+  --highlight: #b6d1dc;
+  --highlight-text:rgb(57, 108, 129);
+
+
+
+
+
+  
   color-scheme: light;
 
 
@@ -100,7 +108,7 @@
     --header: #213b5f;
     --header-darker: #21375f;
     --highlight: #b2d567;
-    --highlight-text: #1d2e5a;
+    --highlight-text: #2b427d;
     color-scheme: dark;
 
   #social .button-icon {

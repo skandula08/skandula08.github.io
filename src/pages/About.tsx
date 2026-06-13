@@ -15,7 +15,7 @@ export default function About() {
         
         <div className="content">
           <p>
-            Hey there, I'm <b className="bg-[var(--highlight)]">Sree!</b> (´• ‿ •`)ノ〃
+            Hey there, I'm <b className="bg-[var(--highlight)] text-[var(--highlight-text)]">Sree!</b> (´• ‿ •`)ノ〃
             <br />
             I'm a recent graduate of Northeastern University, with a BS Computer
             Science and Design.
@@ -59,10 +59,12 @@ export default function About() {
             />
             <Mp3Player />
           </div>
-
+          
           <div className="flex justify-center m-auto">
             <Contact />
           </div>
+<div className="my-10" />
+          <Resume />
 
           <h5 className="text-center text-xs my-8">
             <b style={{ fontFamily: "Cousine" }}>
@@ -77,7 +79,7 @@ export default function About() {
 
           <Interests />
 
-          <Resume />
+          
         </div>
       </div>
     </div>

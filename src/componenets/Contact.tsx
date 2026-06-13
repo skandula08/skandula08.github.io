@@ -23,8 +23,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Contact() {
   return (
     <div className="max-w-sm border border-[var(--red)] bg-[var(--header)] text-[var(--red)] p-4 font-[Cousine] rounded-lg shadow-md w-full">
-      <div className="text-sm tracking-[0.3em]">
-        PERSONNEL CONTACT FILE
+      <div className="text-md tracking-[0.3em]">
+        CONTACT FILE
       </div>
       <span className="text-xs">
         available via{" "}
@@ -34,9 +34,9 @@ export default function Contact() {
           </a>
         </span>
 
-      <div className="border-t border-[var(--red)] my-3" />
+      <div className="border-t border-[var(--red)] mb-3" />
 
-      <div className="space-y-1 text-sm">
+      <div className="space-y-1 text-md">
         <div>NAME: SREE KANDULA</div>
         <div>ROLE: DEVELOPER/DESIGNER</div>
         <div>STATUS: ACTIVE</div>
@@ -44,7 +44,7 @@ export default function Contact() {
 
       <div className="border-t border-[var(--red)] my-3" />
 
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-3 gap-3 text-sm">
         {/* <a href="/resume.pdf">
           <FontAwesomeIcon icon={faFile} />
           RESUME
