@@ -2,6 +2,7 @@
     font-family: var(--sans);
     font-size: 36pt;
     font-weight: 600;
+    margin-top: 50px;
 
     /* overflow: scroll; */
     @media (max-width: 600px) {
@@ -74,6 +75,7 @@
     margin-bottom: 10px;
     margin-right: 10px;
     /* width: 90%; */
+    text-align: left;
     margin: 0 auto;
 }
 
@@ -119,6 +121,13 @@ th {
 
 .writeup p {
     padding-bottom: 10px;
+     margin-bottom: 5px;
+    margin-top: 5px;
+}
+.writeup img {
+    padding-bottom: 10px;
+     margin-bottom: 10px;
+    margin-top: 10px;
 
 }
 
@@ -153,8 +162,9 @@ th {
 }
 
  @media (max-width: 900px) {
-       
-.writeup div {
-    display: flex;
-}
+       .writeup div {
+        display: flex;
+        flex-direction: column;
+       }
+
     }

@@ -6,7 +6,7 @@ import { faFigma, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function ProjectIntro(project: ProjectOverview) {
   return (
-    <div>
+    <div className="mt-20">
       {/* {JSON.stringify(project)} */}
       <div className="intro-bar rounded-lg border p-10 m-10">
         <h2 className="font-(family-name:Nunito)">{project.title}</h2>

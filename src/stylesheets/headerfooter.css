@@ -18,6 +18,9 @@
 
 }
 
+.theme-toggle:hover {
+  color: var(--text);
+}
 
 .menu-link {
     color: var(--text);
