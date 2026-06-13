@@ -52,6 +52,7 @@
 import { useEffect, useState } from "react";
 import ProjectIntro from "../componenets/ProjectIntro";
 import type { ProjectOverview } from "../types";
+import BackToProjects from "../componenets/BackToProjects";
 
 type ProjectProps = {
   project: ProjectOverview;
@@ -87,6 +88,7 @@ export default function ProjectPage(project: ProjectProps) {
       <div className="writeup">
         {WriteupComponent && <WriteupComponent />}
       </div>
+      <BackToProjects />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import Contact from "../componenets/Contact";
+import Resume from "../componenets/Resume";
 import Interests from "../componenets/Interests";
 import LikesDislikes from "../componenets/LikesDislikes";
 import Mp3Player from "../componenets/MP3";
@@ -13,9 +14,10 @@ export default function About() {
         </div>
         <div className="content">
           <p>
-            Hey there, I'm <b className="bg-[var(--green)]">Sree!</b><br />
-            I'm a recent graduate of Northeastern
-            University, with a BS Computer Science and Design.
+            Hey there, I'm <b className="bg-[var(--green)]">Sree!</b>
+            <br />
+            I'm a recent graduate of Northeastern University, with a BS Computer
+            Science and Design.
           </p>
 
           <p className="">
@@ -31,6 +33,21 @@ export default function About() {
             <br />
             My goals in life is learn, create, and have fun.
           </p>
+          <br />
+
+          <div className="flex gap-2 justify-evenly">
+             <img
+    className="w-auto h-60 object-contain"
+    src="/images/decor/me2.png"
+    alt="It's Me!"
+  />
+           <img
+    className="w-auto h-60 object-contain"
+    src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/a7847584-aeaf-421b-a99f-5487701ce653.jpg?h=fd008a6542e827b666ccd95f97913dcc"
+    alt="It's Me!"
+  />
+ 
+          </div>
 
           <div className="p-3 gap-3 flex items-center">
             <img
@@ -43,9 +60,8 @@ export default function About() {
           </div>
 
           <div className="flex justify-center m-auto">
-           <Contact /> 
+            <Contact />
           </div>
-          
 
           <h5 className="text-center text-xs my-8">
             <b style={{ fontFamily: "Cousine" }}>
@@ -59,8 +75,9 @@ export default function About() {
           <br />
 
           <Interests />
-          
-            </div>
+
+          <Resume />
+        </div>
       </div>
     </div>
   );

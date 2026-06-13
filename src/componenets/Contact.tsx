@@ -15,7 +15,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
-  faFile,
+  // faFile,
   faIdCard,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -45,10 +45,10 @@ export default function Contact() {
       <div className="border-t border-[var(--red)] my-3" />
 
       <div className="grid grid-cols-3 gap-3">
-        <a href="/resume.pdf">
+        {/* <a href="/resume.pdf">
           <FontAwesomeIcon icon={faFile} />
           RESUME
-        </a>
+        </a> */}
         <a href="https://linkedin.com/sreekandula" title="linkedin">
           <FontAwesomeIcon icon={faLinkedin} />
           LINKEDIN
