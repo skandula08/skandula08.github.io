@@ -34,7 +34,7 @@ export default function About() {
 
           <div className="p-3 gap-3 flex items-center">
             <img
-              src="/assets/decor/elevator.png"
+              src="/images/decor/elevator.png"
               alt=""
               width={"15%"}
               className="track-cover"

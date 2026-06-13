@@ -3,7 +3,7 @@ import type { ProjectOverview } from "../../types";
 const pyromanimals : ProjectOverview = {
   slug: "pyromanimals",
   year: 2026,
-  image: "assets/pyromanimals/cover.png",
+  image: "images/pyromanimals/cover.png",
   type: "design",
   title: "Pyromanimals",
   description: "Concept art and UI design for a monster hunting video game",
@@ -12,7 +12,7 @@ const pyromanimals : ProjectOverview = {
 const geminate : ProjectOverview = {
   slug: "geminate",
   year: 2026,
-  image: "assets/geminate/geminate_cover.png",
+  image: "images/geminate/geminate_cover.png",
   type: "coding",
   link: "https://github.com/skandula08/GemiNate",
   demo: "https://gamenite-gs0z.onrender.com/",
@@ -25,7 +25,7 @@ const geminate : ProjectOverview = {
 const tactus : ProjectOverview = {
   slug: "tactus",
   year: 2025,
-  image: "assets/tactuscover.png",
+  image: "images/tactuscover.png",
   type: "coding",
   title: "Tactus Music",
   demo: "https://www.tactusmusic.com/",
@@ -37,7 +37,7 @@ const starmapper : ProjectOverview = {
   slug: "starmapper",
   year: 2026,
   link: "https://github.com/skandula08/StarMapper2",
-  image: "assets/starmapper/starmapper_cover.png",
+  image: "images/starmapper/starmapper_cover.png",
   type: "coding",
   title: "StarMapper(2)",
   description: "AR/XR starfield in Unity3D using real life astronomical data",
@@ -47,7 +47,7 @@ const starmapper : ProjectOverview = {
 const skillsphere : ProjectOverview = {
   slug: "skillsphere",
   year: 2024,
-  image: "assets/skillsphere/skillsphere_cover.png",
+  image: "images/skillsphere/skillsphere_cover.png",
   link: "https://github.com/skandula08/SkillSphere",
   type: "coding",
   title: "SkillSphereBot",
@@ -59,7 +59,7 @@ const skillsphere : ProjectOverview = {
 const mbtrivia : ProjectOverview = {
   slug: "mbtrivia",
   year: 2024,
-  image: "assets/mbtrivia/mbtrivia_cover.png",
+  image: "images/mbtrivia/mbtrivia_cover.png",
   link : "https://www.figma.com/design/Fmzu8tJfsDkvs6Fhp6YJGf/Sree--Jerry--Mia--Anqi--Sammi?node-id=216-26&p=f",
   type: "design",
   title: "MBTriviA",
@@ -70,7 +70,7 @@ const mbtrivia : ProjectOverview = {
 const cooperrates : ProjectOverview = {
   slug: "cooperrates",
   year: 2024,
-  image: "assets/cooperrates_cover.png",
+  image: "images/cooperrates_cover.png",
   type: "coding",
   link: "https://github.com/skandula08/cooper-rates",
   title: "CooperRates",
@@ -80,7 +80,7 @@ const cooperrates : ProjectOverview = {
 const travelnote : ProjectOverview = {
   slug: "travelnote",
   year: 2025,
-  image: "assets/travelnote/cover.png",
+  image: "images/travelnote/cover.png",
   type: "design",
   link: "https://www.figma.com/design/5Fa1WB9dHRmVzmqLP9u9KG/Travel-Note?node-id=0-1&t=4KI107Y3cfqMAQwN-1",
   title: "Travel Note",
@@ -90,7 +90,7 @@ const travelnote : ProjectOverview = {
 const worldview: ProjectOverview  = {
   slug: "worldview",
   year: 2024,
-  image: "/assets/worldviewcover.png",
+  image: "/images/worldviewcover.png",
   type: "design",
   link: "https://www.figma.com/design/YUTBf7ypjAhCVUoH7zzdsy/NASA-Worldview?node-id=0-1&t=oscekNejzzSecMhr-1",
   title: "Adobe World View",

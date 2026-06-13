@@ -166,7 +166,7 @@ z = sin(RA) * cos(Dec)`}
 
       <div className="my-8">
         <img
-          src="/assets/starmapper/starmapper_results.png"
+          src="/images/starmapper/starmapper_results.png"
           alt="Star Mapper Results"
           className="w-full rounded-lg shadow-lg"
         />

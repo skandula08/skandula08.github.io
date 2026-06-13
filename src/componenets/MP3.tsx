@@ -55,7 +55,7 @@ export default function Mp3Player() {
         {/* Hidden audio */}
         <audio
           ref={audioRef}
-          src="/assets/decor/ghostride.mp3"
+          src="/images/decor/ghostride.mp3"
           // autoPlay
           loop
           onTimeUpdate={updateTime}

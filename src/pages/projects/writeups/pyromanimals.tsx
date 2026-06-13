@@ -3,7 +3,7 @@ export default function pyromanimals() {
   return (
     <div className="w-5/6 m-auto">
       <img
-        src="/assets/pyromanimals/title.png"
+        src="/images/pyromanimals/title.png"
         width="600px"
         style={{ margin: "5px auto" }}
       />
@@ -25,17 +25,17 @@ export default function pyromanimals() {
       something involving monster media for a while too!
       <div style={{ display: "flex" }}>
         <img
-          src="/assets/pyromanimals/varmint2.png"
+          src="/images/pyromanimals/varmint2.png"
           width="33%"
           style={{ margin: "5px" }}
         />
         <img
-          src="/assets/pyromanimals/varmint3.png"
+          src="/images/pyromanimals/varmint3.png"
           width="33%"
           style={{ margin: "5px" }}
         />
         <img
-          src="/assets/pyromanimals/varmint1.png"
+          src="/images/pyromanimals/varmint1.png"
           width="33%"
           style={{ margin: "5px" }}
         />
@@ -59,7 +59,7 @@ export default function pyromanimals() {
       miscellaneous graphics, heavy on miscellaneous.
       <br />
       <img
-        src="/assets/pyromanimals/misc.png"
+        src="/images/pyromanimals/misc.png"
         width="950px"
         style={{ margin: "5px" }}
       />
@@ -80,7 +80,7 @@ export default function pyromanimals() {
       building for a game that could be the good launching off point for
       actually creating one.
       <img
-        src="/assets/pyromanimals/wolf.png"
+        src="/images/pyromanimals/wolf.png"
         width="950px"
         style={{ margin: "5px" }}
       />
@@ -92,7 +92,7 @@ export default function pyromanimals() {
       encounter looks like and the home menu.
       <div style={{ display: "flex" }}>
         <img
-          src="/assets/pyromanimals/oldscreens.png"
+          src="/images/pyromanimals/oldscreens.png"
           width="100%"
           style={{ margin: "5px" }}
         />
@@ -104,7 +104,7 @@ export default function pyromanimals() {
       assassins creed vibe? Realistic colors and darker minimal ui presence. But
       it doesn’t stick! Next~
       <img
-        src="/assets/pyromanimals/altbg.png"
+        src="/images/pyromanimals/altbg.png"
         width="950px"
         style={{ margin: "5px" }}
       />
@@ -113,12 +113,12 @@ export default function pyromanimals() {
       despite how cute they looked :)
       <div style={{ display: "flex" }}>
         <img
-          src="/assets/pyromanimals/iconss.png"
+          src="/images/pyromanimals/iconss.png"
           width="55%"
           style={{ margin: "5px" }}
         />
         <img
-          src="/assets/pyromanimals/olduis.png"
+          src="/images/pyromanimals/olduis.png"
           width="45%"
           style={{ margin: "5px" }}
         />
@@ -142,24 +142,24 @@ export default function pyromanimals() {
       be more easily conveyed by a flaming aura around the attacking character.
       <div style={{ display: "flex" }}>
         <img
-          src="/assets/pyromanimals/birdflying.png"
+          src="/images/pyromanimals/birdflying.png"
           width="50%"
           style={{ margin: "5px" }}
         />
         <img
-          src="/assets/pyromanimals/birdswooping.png"
+          src="/images/pyromanimals/birdswooping.png"
           width="50%"
           style={{ margin: "5px" }}
         />
       </div>
       <div style={{ display: "flex" }}>
         <img
-          src="/assets/pyromanimals/attacking.png"
+          src="/images/pyromanimals/attacking.png"
           width="55%"
           style={{ margin: "5px" }}
         />
         <img
-          src="/assets/pyromanimals/birdattacking.png"
+          src="/images/pyromanimals/birdattacking.png"
           width="50%"
           style={{ margin: "5px" }}
         />
@@ -219,7 +219,7 @@ export default function pyromanimals() {
       <h2> Gameplay flow…</h2>
       I made a flowchart-esque diagram to think through the 3 parts of the game
       <img
-        src="/assets/pyromanimals/flowchart.png"
+        src="/images/pyromanimals/flowchart.png"
         width="100%"
         style={{ margin: "5px" }}
       />
@@ -239,7 +239,7 @@ export default function pyromanimals() {
       These may not be shown in the project as it stands but I hope to create
       these new monsters moving forward with this project
       <img
-        src="/assets/pyromanimals/characters.png"
+        src="/images/pyromanimals/characters.png"
         width="100%"
         style={{ margin: "5px" }}
       />
@@ -254,7 +254,7 @@ export default function pyromanimals() {
       downloaded Blender and decided I might as well learn now! After watching a
       ton of tutorials, I managed to model some scenes
       <img
-        src="/assets/pyromanimals/firstmodelling.png"
+        src="/images/pyromanimals/firstmodelling.png"
         width="100%"
         style={{ margin: "5px" }}
       />
@@ -267,7 +267,7 @@ export default function pyromanimals() {
       my illustrations wasn’t working the way I liked and made every model a
       deep blue instead.
       <img
-        src="/assets/pyromanimals/forestenv.png"
+        src="/images/pyromanimals/forestenv.png"
         width="100%"
         style={{ margin: "5px" }}
       />
@@ -277,7 +277,7 @@ export default function pyromanimals() {
       three you trek through the dying forest to get to the nest!
       <h2>Environment in the viewport</h2>
       <img
-        src="/assets/pyromanimals/viewportview.png"
+        src="/images/pyromanimals/viewportview.png"
         width="100%"
         style={{ margin: "5px" }}
       />
@@ -290,7 +290,7 @@ export default function pyromanimals() {
       caution tape followed the same principle of simply being stretched cubes
       that I wrote onto.
       <img
-        src="/assets/pyromanimals/substancepainting.png"
+        src="/images/pyromanimals/substancepainting.png"
         width="100%"
         style={{ margin: "5px" }}
       />
@@ -303,7 +303,7 @@ export default function pyromanimals() {
       anything emitting light gets diffused through the air. Otherwise the
       render would look like a bright white tubes with no glow.
       <img
-        src="/assets/pyromanimals/shaders.png"
+        src="/images/pyromanimals/shaders.png"
         width="100%"
         style={{ margin: "5px" }}
       />
@@ -312,12 +312,12 @@ export default function pyromanimals() {
       The ui doesn’t stray from the previous iteration, but we updated a few
       things
       <img
-        src="/assets/pyromanimals/newuis.png"
+        src="/images/pyromanimals/newuis.png"
         width="100%"
         style={{ margin: "5px" }}
       />
       <iframe
-        src="/assets/pyromanimals/process.pdf"
+        src="/images/pyromanimals/process.pdf"
         style={{ border: "1px solid black", borderRadius: "10px" }}
         width="100%"
         height="400"
@@ -336,7 +336,7 @@ export default function pyromanimals() {
       enemy behavior and the ai algorithm for it will be fun in the future, I
       know. And finally, if you lose against one of the fire monsters...
       <img
-        src="/assets/pyromanimals/DDG11.png"
+        src="/images/pyromanimals/DDG11.png"
         width="100%"
         style={{ margin: "5px" }}
       />

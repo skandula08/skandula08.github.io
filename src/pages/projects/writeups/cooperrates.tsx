@@ -466,7 +466,7 @@ export default function cooperrates() {
       reviews, students leaving reviews for co-op experiences, co-op advisors,
       and systems/database administrators for the application. This project was
       completed as a final project at Northeastern University's CS3200 class.
-      <img src="/assets/cooperrates_cover.png" />
+      <img src="/images/cooperrates_cover.png" />
       <h2> Features </h2>
       <h4> Students can... </h4>
       <ul>
@@ -504,9 +504,9 @@ export default function cooperrates() {
         </li>
       </ul>
       <h2>Global ER Diagram </h2>
-      <img src="/assets/cooperrates_er_diagram.png" />
+      <img src="/images/cooperrates_er_diagram.png" />
       <h2> Relational Database Diagram </h2>
-      <img src="/assets/cr_rd_diagram.png" />
+      <img src="/images/cr_rd_diagram.png" />
       <h2> Preliminary Designs </h2>
       <i>
         Though Streamlit has it's own, rather rigid component system, I tooks

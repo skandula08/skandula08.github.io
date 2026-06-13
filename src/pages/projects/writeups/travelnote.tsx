@@ -7,7 +7,7 @@ export default function travelnote() {
           Imagining a unique travel site, <br />
           based on journaling and scrapbooking.{" "}
         </h4>
-        <img src="/assets/travelnote/logo.png" width="30%" />
+        <img src="/images/travelnote/logo.png" width="30%" />
       </div>
       <br />
       Travel Note is a hi-fidelity prototype of a travel review website that's
@@ -23,15 +23,15 @@ export default function travelnote() {
       would look like. There were a decent number of changes between the end to
       what i ultimately settled on.
       <div style={{display:"flex"}}>
-        <img src="/assets/travelnote/favicon.png" width="100%" />
-        <img src="/assets/travelnote/moodboard.png" width="75%" />
+        <img src="/images/travelnote/favicon.png" width="100%" />
+        <img src="/images/travelnote/moodboard.png" width="75%" />
       </div>
-      <img src="/assets/travelnote/lofis.png" />
+      <img src="/images/travelnote/lofis.png" />
       <br />
       ## Design Choices: After the first pass, I decided i wanted to change the
       visuals, like the colors, fonts and shape language a little more...
       <br />
-      <img src="/assets/travelnote/branding.png" />
+      <img src="/images/travelnote/branding.png" />
       <br />
       - The palette is primarily a combination of purples and a light paper
       colored beige. - The logo is a spin on a classic map pin morphed to look a

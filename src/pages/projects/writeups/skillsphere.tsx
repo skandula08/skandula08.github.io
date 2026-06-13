@@ -183,15 +183,15 @@ inquiries to general queries, thanks to the integration with ChatGPT.</li>
 <h2> Screenshots of our Bot at work~ </h2>
 <br />
 
-<img src="/assets/skillsphere/skillsphere_cover.png" />
-<img src="/assets/skillsphere/instructiona_headers.png" />
+<img src="/images/skillsphere/skillsphere_cover.png" />
+<img src="/images/skillsphere/instructiona_headers.png" />
 <div style={{display: "flex"}}>
-<img src="/assets/skillsphere/join_and_help.png" width="80%" />
+<img src="/images/skillsphere/join_and_help.png" width="80%" />
 
 <div>
-<img src="/assets/skillsphere/levelup.png" />
-<img src="/assets/skillsphere/loading_messages.png" />
-<img src="/assets/skillsphere/reengagement.png" />
+<img src="/images/skillsphere/levelup.png" />
+<img src="/images/skillsphere/loading_messages.png" />
+<img src="/images/skillsphere/reengagement.png" />
 </div>
 </div>
 
