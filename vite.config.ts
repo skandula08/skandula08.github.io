@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  base: '/skandula08.github.io/'
+  base: '/'
 })
 
 
