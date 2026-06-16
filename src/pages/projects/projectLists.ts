@@ -87,6 +87,22 @@ const travelnote : ProjectOverview = {
   description: "A bullet journalling inspired travel site",
   tags: ["figma", "ui/ux"],
 };
+
+
+
+const khoury : ProjectOverview = {
+  slug: "khoury",
+  year: 2026,
+  image: "images/travelnote/cover.png",
+  type: "design",
+  // link: "https://www.figma.com/design/5Fa1WB9dHRmVzmqLP9u9KG/Travel-Note?node-id=0-1&t=4KI107Y3cfqMAQwN-1",
+  title: "Khoury College",
+  description: "Collected work as designer for Khoury College's Communications and Media team",
+  tags: ["graphics", "contract"],
+};
+
+
+
 const worldview: ProjectOverview  = {
   slug: "worldview",
   year: 2024,
@@ -121,6 +137,7 @@ export const selected : ProjectOverview[] = [
 export const programming : ProjectOverview[] = [geminate, tactus, starmapper, cooperrates, skillsphere];
 
 export const design : ProjectOverview[] = [
+  khoury,
   pyromanimals,
   tactus,
   mbtrivia,

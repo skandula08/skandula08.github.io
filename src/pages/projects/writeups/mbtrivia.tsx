@@ -214,7 +214,7 @@ export default function mbtrivia() {
 
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/e62b9962-dab2-46ae-9b0e-adfe9ce429c3_rw_1920.png?h=51abd11c2331535746d7a62126902853"
-          style={{ width: "90%", margin: "5px" }}
+          style={{ width: "100%", margin: "5px" }}
         />
       </div>
       <div style={{ display: "flex" }}>
