@@ -22,9 +22,9 @@ export default function travelnote() {
       At this stage I was plotting out a few sketches of what the wireframes
       would look like. There were a decent number of changes between the end to
       what i ultimately settled on.
-      <div style={{display:"flex"}}>
+      <div className="grid grid-cols-2 gap-3">
         <img src="/images/travelnote/favicon.png" width="100%" />
-        <img src="/images/travelnote/moodboard.png" width="75%" />
+        <img src="/images/travelnote/moodboard.png" width="80%" />
       </div>
       <img src="/images/travelnote/lofis.png" />
       <br />

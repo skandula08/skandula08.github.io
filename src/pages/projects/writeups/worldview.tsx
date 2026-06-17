@@ -105,21 +105,21 @@ export default function worldview() {
           back to grey.{" "}
         </li>
       </ul>
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div className="grid grid-cols-3">
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/b01a8b75-4ad6-4cc6-90a4-56e5d0da6012_rw_1200.png?h=9385e8b67b9c40ce96bec3288dfa69a2"
-          width="55%"
-          style={{ margin: "2px" }}
+          // width="55%"
+          // style={{ margin: "2px" }}
         />
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/5d9b93c8-bbbc-4410-a3d0-0e1a7eef6a5b_rw_1200.png?h=a81f812e77bf4ad67e8b15070f2ba1a2"
-          width="50%"
-          style={{ margin: "2px" }}
+          // width="50%"
+          // style={{ margin: "2px" }}
         />
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/795f6d59-96af-4d65-a4e8-2883165c4d53_rw_1200.png?h=aa94097b07eebeea3f52e8dadb794220"
-          width="60%"
-          style={{ margin: "2px" }}
+          // width="60%"
+          // style={{ margin: "2px" }}
         />
       </div>
       <br />

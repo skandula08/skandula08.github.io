@@ -183,16 +183,8 @@ export default function Khoury() {
         <img src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/de35ddc7-865a-46c5-81cc-f4d0b5808f78_rw_600.jpg?h=58f7fd2782176e6a94ded6592968ff2b" alt="" />
       </div>
 
-      <h2>Co-Op Campaign</h2>
-      <div className="grid grid-cols-3 gap-3">
-        <img src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/08897263-7a52-4de3-a978-b1d72fb70ff8_rw_1200.jpg?h=cf6317bc5b911506858892d36e4da789" alt="" className="h-6/10 object-contain m-auto" />
-        <img src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/f1d48715-e127-4179-bb9d-a85f65f24a65_rw_1920.jpg?h=94d7c7947335e4acd561ad4ffb6196ae" alt="" />
-        <img src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/ea5e28c5-5bf1-4dd1-a7f4-f46cca90574a_rw_1920.jpg?h=2e20a757171f8c657897ff78556c09e1" alt="" />
-      </div>
-           
 
-
-      <h2>New Graphics for Monitors</h2>
+       <h2>New Graphics for Monitors</h2>
       <div className="grid grid-cols-3 gap-3">
         <img src="/images/khoury/news-monitors-11.png" alt="" className="" />
         <img src="/images/khoury/news-monitors-01.png" alt="" className="" />
@@ -201,8 +193,13 @@ export default function Khoury() {
         <img src="/images/khoury/news_monitors-02.png" alt="" className="" />
       
       </div>
-           
 
+      <h2>Co-Op Campaign</h2>
+      <div className="grid grid-cols-3 gap-3">
+        <img src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/08897263-7a52-4de3-a978-b1d72fb70ff8_rw_1200.jpg?h=cf6317bc5b911506858892d36e4da789" alt="" className="h-6/10 object-contain m-auto" />
+        <img src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/f1d48715-e127-4179-bb9d-a85f65f24a65_rw_1920.jpg?h=94d7c7947335e4acd561ad4ffb6196ae" alt="" />
+        <img src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/ea5e28c5-5bf1-4dd1-a7f4-f46cca90574a_rw_1920.jpg?h=2e20a757171f8c657897ff78556c09e1" alt="" />
+      </div>
 
 
     </div>

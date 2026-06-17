@@ -90,21 +90,19 @@ export default function mbtrivia() {
       of the MBTA train lines as different game modes, and implemented the
       locomotive and mapping imagery as elements in the iconography and splash
       screens.
-      <div style={{ display: "flex" }}>
+      <div className="grid grid-cols-3">
         <div>
           <img
             src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/d8614c4f-e9d9-4e85-adb9-e5ceb8bccfaa_rw_1920.png?h=64611e927e4735bd97fe44f8c1b890f4"
-            style={{ width: "100%", margin: "5px" }}
           />
           <img
             src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/d7e54978-e9d6-466d-9d40-4f58f4c5cb30_rw_600.png?h=364772e3ba079d67cb790cdfc9ccdcef"
-            style={{ width: "100%", margin: "5px" }}
           />
         </div>
 
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/2b90999f-c053-4d8f-aa4a-b9af8f6ff599.png?h=37ee5bb40d181e6b6fee709a7a7ab76b"
-          style={{ width: "250%", margin: "5px" }}
+          className="col-span-2"
         />
       </div>
       <br />
@@ -206,29 +204,32 @@ export default function mbtrivia() {
       <br />
       <h3>Low Fidelity Prototypes: </h3>
       <br />
-      <div style={{ display: "flex" }}>
+      <div className="grid grid-cols-5 gap-3">
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/10aa9de8-18cb-4c70-a0f8-9756adc6100f_rw_1200.png?h=ad3e722fade7cad7fd788baf9f74fde6"
-          style={{ width: "150%", margin: "5px" }}
+          // style={{ width: "150%", margin: "5px" }}
+          className="col-span-3"
         />
 
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/e62b9962-dab2-46ae-9b0e-adfe9ce429c3_rw_1920.png?h=51abd11c2331535746d7a62126902853"
-          style={{ width: "100%", margin: "5px" }}
+          // style={{ width: "100%", margin: "5px" }}
+          className="col-span-2"
         />
       </div>
-      <div style={{ display: "flex" }}>
+      <div className="grid grid-cols-5 gap-3" >
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/7b0a43e6-daf6-45ee-9495-85c979ab9d82_rw_1920.png?h=43c538bf0df7ad09711850fda2534b97"
-          style={{ width: "250%", margin: "5px" }}
+          // style={{ width: "250%", margin: "5px" }}
+          className="col-span-3"
         />
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/2aaca462-a959-4db0-9ae4-cdd506ee80dc_rw_600.png?h=9e55db2239c43621b9b520b2b2cad60a"
-          style={{ width: "60%", height: "50%", margin: "5px" }}
+          style={{height: "65%"}}
         />
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/43b9651d-2809-4d83-9891-0bf76ba1cb9c_rw_1200.png?h=7bebc6ac74d2ac0e089f8cf65b713ff9"
-          style={{ width: "30%", height: "50%", margin: "5px" }}
+          // style={{ width: "30%", height: "50%", margin: "5px" }}
         />
       </div>
       <i>
