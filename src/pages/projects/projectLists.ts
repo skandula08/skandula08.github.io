@@ -93,7 +93,7 @@ const travelnote : ProjectOverview = {
 const khoury : ProjectOverview = {
   slug: "khoury",
   year: 2026,
-  image: "images/travelnote/cover.png",
+  image: "/images/khoury/cover.png",
   type: "design",
   // link: "https://www.figma.com/design/5Fa1WB9dHRmVzmqLP9u9KG/Travel-Note?node-id=0-1&t=4KI107Y3cfqMAQwN-1",
   title: "Khoury College",
