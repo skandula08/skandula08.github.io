@@ -16,7 +16,7 @@ export default function Khoury() {
       tossing their caps in the air with bright smiles that you could easily
       connect to. These illustrations were used to create stickers, social media
       posts, and a hero image for the Commencement page on the Khoury website.
-      <div className="flex object-fit gap-3">
+      <div className="grid grid-cols-3 gap-3">
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/f3aa6347-f5f7-4057-95f0-cc27e76a5f5e_rw_600.png?h=cacabea55d84da9dad44a9506257cc6a"
           alt=""
@@ -39,20 +39,20 @@ export default function Khoury() {
           alt=""
         />
       </div>
-      <div className="flex">
-        <div className="flex gap-3">
+      <div className="grid grid-cols-5 gap-3">
+        {/* <div className="flex gap-3 "> */}
           <img
             src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/2724b8b3-1a94-437e-b1fb-f0481cab69ca_rw_1200.jpg?h=ec2e43cd90187350b4f68e82225a0bd2"
             alt=""
-            className="w-full object-contain"
+            className="w-full object-contain col-span-2"
           />
           <img
             src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/7b8b1e2a-e995-4d7d-b213-f240096cf15e_rw_1200.jpg?h=b62482f4ca325144a09761fe88180ca5"
             alt=""
             className="w-full object-contain"
           />
-        </div>
-        <p className="w-full pl-3">
+        {/* </div> */}
+        <p className="w-full pl-3 col-span-2">
           I was tasked to pick up a seemingly forgotten social media infographic
           project! Khoury has been needing an upgraded poster to showcase their
           social media presence, and highlight the college's new TikTok and
@@ -70,7 +70,7 @@ export default function Khoury() {
         Made for an animated video demonstrating the box breathing pattern for
         Mental Health Awareness week.
       </p>
-      <div className="flex w-full h-64 m-auto gap-3">
+      <div className="grid grid-cols-5">
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/00e25c86-4aa2-419a-878c-553598b00476_rw_1200.png?h=b4920ca725aa4b01d2581f419d266b51"
           alt=""
