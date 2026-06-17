@@ -189,8 +189,18 @@ export default function Khoury() {
         <img src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/f1d48715-e127-4179-bb9d-a85f65f24a65_rw_1920.jpg?h=94d7c7947335e4acd561ad4ffb6196ae" alt="" />
         <img src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/ea5e28c5-5bf1-4dd1-a7f4-f46cca90574a_rw_1920.jpg?h=2e20a757171f8c657897ff78556c09e1" alt="" />
       </div>
+           
 
+
+      <h2>New Graphics for Monitors</h2>
+      <div className="grid grid-cols-3 gap-3">
+        <img src="/images/khoury/news-monitors-11.png" alt="" className="" />
+        <img src="/images/khoury/news-monitors-01.png" alt="" className="" />
+        <img src="/images/khoury/news_monitors-04.png" alt="" className="" />
+        <img src="/images/khoury/news_monitors-03.png" alt="" className="" />
+        <img src="/images/khoury/news_monitors-02.png" alt="" className="" />
       
+      </div>
            
 
 
