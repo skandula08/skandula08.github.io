@@ -44,9 +44,9 @@ export default function worldview() {
         >
           <b>
             <b>HOW MIGHT WE</b> convey the massive scale of information in a
-            cleaner organized way?
+            cleaner organized way? <br />
             <b>HOW MIGHT WE</b> adapt the a complex data repository into
-            something digestible without losing all it's features?
+            something digestible without losing all it's features?  <br />
             <b>HOW MIGHT WE</b> redefine a simple data mapping index as a
             dynamic piece of software?
           </b>
@@ -105,7 +105,7 @@ export default function worldview() {
           back to grey.{" "}
         </li>
       </ul>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 gap-3">
         <img
           src="https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/b01a8b75-4ad6-4cc6-90a4-56e5d0da6012_rw_1200.png?h=9385e8b67b9c40ce96bec3288dfa69a2"
           // width="55%"
