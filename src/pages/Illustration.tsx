@@ -40,7 +40,7 @@ export default function Illustration() {
       <div>
         {selected !== "" && (
           <div
-            className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 cursor-pointer"
+            className="fixed inset-0 z-50 bg-black/80 backdrop-blur-xs flex items-center justify-center p-4 cursor-pointer"
             onClick={() => setSelectedImage("")}
           >
             <img
