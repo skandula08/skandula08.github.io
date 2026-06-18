@@ -51,14 +51,14 @@ export default function Header() {
           >
             Programming
           </button>
-          {/* <button
+          <button
             className="menu-link"
             onClick={() => {
               navigate("/art");
             }}
           >
             Illustration
-          </button> */}
+          </button>
 
           <button
             className="menu-link"
