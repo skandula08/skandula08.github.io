@@ -23,7 +23,6 @@
 
 .menu-link {
     color: var(--text);
-    /* margin: 7px; */
     padding: 7px;
     text-decoration: none;
     border: none;
@@ -106,7 +105,6 @@ backdrop-filter: blur(5px);
 .mobile-nav button {
   background: transparent;
   color: var(--text);
-  border: none;
 
   text-align: right;
   padding: 16px 20px;

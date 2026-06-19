@@ -1,11 +1,11 @@
-// import ImageGrid from "../componenets/ImageGrid";
-
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import ImageGrid from "../componenets/ImageGrid";
+import Lightbox from "../componenets/Lightbox";
 
 export default function Illustration() {
   const [selectedImage, setSelectedImage] = useState("");
 
-  const imagelist = [
+  const drawings = [
     "https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/9013e891-76cf-4ae9-beaa-00935595fd5c_rw_1920.png?h=2fb62e31a3fbfec757cce1620bcafb62",
     "https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/752baa0f-3858-4f4c-a730-f29461afc592_rw_1200.jpg?h=c7f54022bca85bdad42ba4079aec4367",
     "https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/f7008347-70b2-40c8-9b6a-e99cc7823031_rw_1920.jpg?h=21d84e86ef8189a910072eeeb4ceec69",
@@ -30,43 +30,7 @@ export default function Illustration() {
     "https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/22a96d92-12b2-4009-ab39-d14cd52c50df_rw_1920.jpg?h=9b0c36495b25155d2506c84f93da879d",
     "https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/ea7db16a-8377-4bc3-964d-a0df06d89170_rw_1920.jpg?h=efa3d0eec6c454907c07e4bba7b92174",
     "https://cdn.myportfolio.com/12def683-758c-419e-9fd1-93f047691924/685f1ffb-0bfb-40b5-8360-b301a199314d_rw_1200.jpg?h=54c43206c6f5807f6b401f8f0cc776b1",
-    // "",
-    // "",
-    // "",
   ];
-
-  function lightbox(selected: string) {
-    return (
-      <div>
-        {selected !== "" && (
-          <div
-            className="fixed inset-0 z-50 bg-black/80 backdrop-blur-xs flex items-center justify-center p-4 cursor-pointer"
-            onClick={() => setSelectedImage("")}
-          >
-            <img
-              src={selected}
-              alt=""
-              className="max-w-full max-h-full object-contain"
-            />
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  useEffect(() => {
-    const handleKeyDown = (e: { key: string }) => {
-      if (e.key === "Escape") {
-        setSelectedImage("");
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-    };
-  }, []);
 
   return (
     <div className="mt-20">
@@ -83,20 +47,8 @@ export default function Illustration() {
       <p>I especially enjoy character art, drawing expressions is wildly fun</p>
       <div className="my-10" />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-        {imagelist.map((img) => (
-          <>
-            <img
-              key={`${img}`}
-              src={`${img}`}
-              onClick={() => setSelectedImage(img)}
-              className="aspect-square w-full object-cover cursor-pointer"
-              alt=""
-            />
-          </>
-        ))}
-      </div>
-      {lightbox(selectedImage)}
+      <ImageGrid images={drawings} />
+
 
       <div className="my-10" />
 
@@ -106,8 +58,8 @@ export default function Illustration() {
       <p>
         I like to use my art to tell stories, one of the ways I've been
         exploring lately is comic art.
-        <br/ > I'm in the process of writing a story,
-        that I hope to share more details soon. In the meantime, enjoy these pieces.
+        <br /> I'm in the process of writing a story, that I hope to share more
+        details soon. In the meantime, enjoy these pieces.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 p-4">
@@ -123,8 +75,7 @@ export default function Illustration() {
           </>
         ))}
       </div>
-
-      
+      <Lightbox selected={selectedImage} onClose={() => setSelectedImage("")} />
     </div>
   );
 }
